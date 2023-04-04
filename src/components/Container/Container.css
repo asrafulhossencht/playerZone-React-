@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.selected-players {
+    border: 1px solid #474747;
+    border-radius: 1rem;
+    padding: 0rem 0.5rem;
+
+}

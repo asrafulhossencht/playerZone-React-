@@ -1,0 +1,30 @@
+.player {
+    border: 2px solid #474747b4;
+    border-radius: 1rem;
+    padding: 1rem 1rem 4rem;
+    position: relative;
+}
+
+.player img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+
+}
+
+.select-btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid #474747b4;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #47474749;
+}
